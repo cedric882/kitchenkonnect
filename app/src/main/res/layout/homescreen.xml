@@ -40,8 +40,8 @@
         <ImageButton
             android:id="@+id/imageButton3"
             android:layout_width="148dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="68dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="76dp"
             android:layout_marginTop="16dp"
             android:background="@null"
             android:scaleType="fitCenter"
@@ -87,6 +87,7 @@
                     android:layout_height="match_parent"
                     android:background="@null"
                     android:scaleType="fitCenter"
+                    android:layout_marginBottom="1.2dp"
                     android:src="@drawable/italianlogo" />
 
             </RelativeLayout>
@@ -101,6 +102,7 @@
                     android:layout_height="match_parent"
                     android:background="@null"
                     android:scaleType="fitCenter"
+                    android:layout_marginBottom="5dp"
                     android:src="@drawable/filipinologo" />
             </RelativeLayout>
 
@@ -114,6 +116,7 @@
                     android:layout_height="match_parent"
                     android:background="@null"
                     android:scaleType="fitCenter"
+                    android:layout_marginBottom="3dp"
                     android:src="@drawable/koreanlogo" />
             </RelativeLayout>
         </LinearLayout>
@@ -325,8 +328,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:fontFamily="@font/annyeong"
+            android:fontFamily="@font/mondric"
             android:text="Kitchenkonnect"
+            android:textStyle="bold"
             android:textSize="33dp"
             android:textColor="@color/black"
             app:layout_constraintEnd_toEndOf="parent"
