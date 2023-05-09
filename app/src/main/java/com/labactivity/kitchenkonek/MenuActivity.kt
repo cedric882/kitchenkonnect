@@ -40,6 +40,7 @@ class MenuActivity : AppCompatActivity() {
             foodList.add(Food(R.drawable.pasta_carbonara, labelOfFoods.italianFood[1]))
             foodList.add(Food(R.drawable.margherita_pizza_recipe, labelOfFoods.italianFood[2]))
             foodList.add(Food(R.drawable.pesto_pasta, labelOfFoods.italianFood[3]))
+            foodList.add(Food(R.drawable.risotto, labelOfFoods.italianFood[4]))
 
             foodAdapter = FoodAdapter(foodList)
             recyclerView.adapter = foodAdapter

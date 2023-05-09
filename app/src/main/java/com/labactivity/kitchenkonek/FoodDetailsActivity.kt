@@ -53,12 +53,13 @@ class FoodDetailsActivity : AppCompatActivity() {
 
     //italian category
     val italianFood: Array<String> =
-        arrayOf("Spaghetti Aglio E Olla", "Pasta Carbonara", "Margherita Pizza", "Pesto Pasta")
+        arrayOf("Spaghetti Aglio E Olla", "Pasta Carbonara", "Margherita Pizza", "Pesto Pasta", "Risotto")
     val italianFoodDescription: Array<String> = arrayOf(
         "Spaghetti aglio e olio (Italian for 'spaghetti [with] garlic and oil'; Italian: [spaˈɡetti ˈaʎʎo e ˈɔːljo]) is a traditional Italian pasta dish from Naples. It is a typical dish of Neapolitan cuisine and is widely popular. Its popularity can be attributed to it being simple to prepare and the fact that it makes use of inexpensive, readily available ingredients that have long shelf lives in a pantry.",
         "There may be no more beloved Italian dish than carbonara: hot pasta tossed with a creamy sauce of raw beaten eggs, accentuated with crisp bits of guanciale, and finished with a shower of grated aged Pecorino Romano cheese plus freshly ground black pepper.",
         "Margherita pizza is known for its ingredients representing the colours of the Italian flag. These ingredients include red tomato sauce, white mozzarella and fresh green basil. When all of these delicious flavours are combined on a hand-kneaded pizza base, a universally-adored pizza is created.",
-        "Pesto is one of the most popular pasta toppings in Italy. It originated in Liguria, specifically in Genoa. This flavorful sauce is made of basil, extra-virgin olive oil, parmesan cheese, pecorino cheese, pine nuts, garlic and salt, traditionally ground in a ceramic or marble mortar. It can be homemade or commercially prepared. "
+        "Pesto is one of the most popular pasta toppings in Italy. It originated in Liguria, specifically in Genoa. This flavorful sauce is made of basil, extra-virgin olive oil, parmesan cheese, pecorino cheese, pine nuts, garlic and salt, traditionally ground in a ceramic or marble mortar. It can be homemade or commercially prepared. ",
+        "Making risotto at home may seem like a daunting task, but our recipe breaks the process down into simple steps for a foolproof result. Aromatics like shallots, garlic, and thyme build layers of flavor, while gradually adding hot stock as you stir helps coax the starches out of the arborio rice for the creamiest risotto. We love incorporating mushrooms for added flavor, but feel free to make the dish without—or swap in your favorite vegetable! Savory and rich, risotto will make the perfect centerpiece dish for your next dinner party."
     )
     val italianFoodIngredients: Array<String> = arrayOf(
         "1 pound uncooked spaghetti\n" +
@@ -95,7 +96,20 @@ class FoodDetailsActivity : AppCompatActivity() {
                 "¼ Cup grated parmesan cheese\n\n" +
                 "¼ Cup extra virgin olive oil\n\n" +
                 "4 – 6 garlic cloves\n\n" +
-                "Salt and pepper to taste"
+                "Salt and pepper to taste",
+        "6 cups low-sodium chicken stock, or vegetable stock\n\n" +
+                "2 tablespoons olive oil\n\n" +
+                "1 shallot, finely chopped\n\n" +
+                "1 lb shiitake mushroom(455 g), stemmed and thinly sliced\n\n" +
+                "2 tablespoons unsalted butter\n\n" +
+                "2 cloves garlic, minced\n\n" +
+                "1 teaspoon finely chopped fresh thyme leaves\n\n" +
+                "kosher salt, to taste\n\n" +
+                "freshly ground black pepper, to taste\n\n" +
+                "1 ½ cups arborio rice(200 g)\n\n" +
+                "½ cup white wine(120 mL), or lemon juice\n\n" +
+                "1 cup grated parmesan cheese(110 g), plus more for serving\n\n" +
+                "¼ cup fresh parsley(10 g), for serving"
     )
 
     val italianFoodProcedure: Array<String> =
@@ -127,7 +141,28 @@ class FoodDetailsActivity : AppCompatActivity() {
                     "Step 3: Scrape down food processor. Cover, then with food processor running pour olive oil in through the feed tube of the lid. Don't over-process, just blend.\n\n" +
                     "Step 4: Season with salt to taste.\n\n" +
                     "Step 5: Drain pasta once al dente then add to a large serving bowl. Pour in 1/4 cup pasta water and toss. Let it cool 1 - 2 minutes.\n\n" +
-                    "Step 6Add all of the pesto and toss. Thin with up to 1/4 cup more pasta water as desired and garnish with more parmesan and pine nuts if desired."
+                    "Step 6Add all of the pesto and toss. Thin with up to 1/4 cup more pasta water as desired and garnish with more parmesan and pine nuts if desired." ,
+            "Step 1: Add the stock to a medium pot and bring to a boil over high heat. Once the stock is boiling, reduce the heat to low or remove the pan from the heat and keep nearby.\n" +
+                    "\n" +
+                    "Step 2: Heat the olive oil in a wide, tall pot over medium heat. Once the oil begins to shimmer, add the shallot and cook, stirring frequently, until translucent.\n" +
+                    "\n" +
+                    "Step 3: Add the shiitake mushrooms and butter. Cook, stirring occasionally, until the mushrooms have cooked down and browned.\n" +
+                    "\n" +
+                    "Step 4: Add the garlic, thyme, salt, and pepper, stir, and cook for 1 minute, until the garlic is fragrant.\n" +
+                    "\n" +
+                    "Step 5: Add the rice and stir until fully coated in the mushroom mixture. Let the rice toast for 1-2 minutes, until aromatic.\n" +
+                    "\n" +
+                    "Step 6: Add the white wine and cook until evaporated, stirring occasionally.\n" +
+                    "\n" +
+                    "Step 7: Add 1 cup (240 ml) of the hot stock and stir to combine. Cook, stirring frequently, until the stock is fully absorbed by the rice.\n" +
+                    "\n" +
+                    "Step 8: Continue to add the stock, ½ cup (120 ml) at a time, stirring continuously, until fully absorbed, 15-20 minutes. Depending on how fast the rice cooks, there may be leftover stock.\n" +
+                    "\n" +
+                    "Step 9: Once the rice is al dente, remove from the heat. Add the Parmesan and stir to combine.\n" +
+                    "\n" +
+                    "Step 10: Garnish the risotto with parsley, Parmesan, salt, and pepper.\n" +
+                    "\n" +
+                    "Step 11: Enjoy!"
         )
 
     //filipino food
@@ -274,57 +309,112 @@ class FoodDetailsActivity : AppCompatActivity() {
         "Japchae is a Korean noodle dish made of sweet potato glass noodles, stir-fried with vegetables and meat, typically beef or pork, and seasoned with soy sauce and sesame oil. The dish often includes a variety of colorful vegetables such as carrots, spinach, and bell peppers, as well as mushrooms and onions. Japchae is a popular Korean dish that is often served as a side dish or a main course.")
 
     val koreanFoodIngredients: Array<String> = arrayOf("1 cup short-grain white rice\n" +
+            "\n" +
             "1 1/4 cups water\n" +
+            "\n" +
             "1/4 teaspoon salt\n" +
+            "\n" +
             "4 ounces ground beef or beef strips\n" +
+            "\n" +
             "1 tablespoon soy sauce\n" +
+            "\n" +
             "1 tablespoon sesame oil\n" +
+            "\n" +
             "1 teaspoon sugar\n" +
+            "\n" +
             "1/4 teaspoon black pepper\n" +
+            "\n" +
             "1 tablespoon vegetable oil\n" +
+            "\n" +
             "1 garlic clove, minced\n" +
+            "\n" +
             "1/2 cup julienned carrots\n" +
+            "\n" +
             "1/2 cup julienned zucchini\n" +
+            "\n" +
             "1/2 cup sliced mushrooms\n" +
+            "\n" +
             "1/2 cup spinach leaves\n" +
+            "\n" +
             "1/2 cup bean sprouts\n" +
+            "\n" +
             "1 egg, fried or poached\n" +
-            "1 tablespoon gochujang (Korean red pepper paste)",
+            "\n" +
+            "1 tablespoon gochujang (Korean red pepper paste)\n" +
+            "\n" +
+            "Process finished with exit code 0\n",
 
         "1 head Napa cabbage\n" +
+                "\n" +
                 "1/4 cup salt\n" +
+                "\n" +
                 "3 tablespoons Korean chili flakes\n" +
+                "\n" +
                 "1 tablespoon sugar\n" +
+                "\n" +
                 "2 cloves garlic, minced\n" +
+                "\n" +
                 "1 teaspoon ginger, grated\n" +
+                "\n" +
                 "3 green onions, sliced\n" +
+                "\n" +
                 "1/4 cup fish sauce\n" +
+                "\n" +
                 "1/4 cup water\n" +
+                "\n" +
                 "1/4 cup Korean radish, julienned",
 
-        "1 pound beef sirloin, sliced thinly\n" + "1/2 cup soy sauce\n" +
+        "1 pound beef sirloin, sliced thinly\n" +
+                "\n" +
+                "1/2 cup soy sauce\n" +
+                "\n" +
                 "1/4 cup brown sugar\n" +
+                "\n" +
                 "1/4 cup sesame oil\n" +
+                "\n" +
                 "3 cloves garlic, minced\n" +
+                "\n" +
                 "1/2 teaspoon black pepper\n" +
+                "\n" +
                 "1/2 onion, sliced\n" +
+                "\n" +
                 "1 green onion, chopped\n" +
-                "1 tablespoon sesame seeds","8 oz sweet potato glass noodles\n" +
+                "\n" +
+                "1 tablespoon sesame seeds"
+
+        ,"8 oz sweet potato glass noodles\n" +
+                "\n" +
                 "1/2 pound beef sirloin, sliced thinly\n" +
+                "\n" +
                 "2 tablespoons soy sauce\n" +
+                "\n" +
                 "2 tablespoons sugar\n" +
+                "\n" +
                 "2 tablespoons sesame oil\n" +
+                "\n" +
                 "1 tablespoon vegetable oil\n" +
+                "\n" +
                 "1 onion, sliced\n" +
+                "\n" +
                 "2 garlic cloves, minced\n" +
+                "\n" +
                 "4-5 shiitake mushrooms, sliced\n" +
+                "\n" +
                 "1/2 red bell pepper, sliced\n" +
+                "\n" +
                 "1/2 yellow bell pepper, sliced\n" +
+                "\n" +
                 "1/2 green bell pepper, sliced\n" +
+                "\n" +
                 "2 scallions, sliced\n" +
+                "\n" +
                 "1 carrot, julienned\n" +
+                "\n" +
                 "1 cup spinach leaves, blanched and drained\n" +
-                "1 tablespoon sesame seeds")
+                "\n" +
+                "1 tablespoon sesame seeds\n" +
+                "\n" +
+                "Process finished with exit code 0\n")
 
     val koreanFoodProcedure: Array<String> = arrayOf(
         "1. Rinse the rice in cold water and drain. Add it to a medium saucepan with the water and salt. Bring to a boil, reduce the heat to low, cover, and simmer for 18 minutes.\n" +
@@ -392,13 +482,21 @@ class FoodDetailsActivity : AppCompatActivity() {
         "A breakfast burrito is a popular breakfast dish that consists of a tortilla filled with scrambled eggs, cheese, and a variety of other ingredients such as bacon, sausage, potatoes, and vegetables. It's a hearty and filling breakfast option.")
 
     val breakfastFoodIngredients: Array<String> = arrayOf("English muffins, split and toasted -- 2\n" +
+            "\n" +
             "Canadian bacon -- 4 slices\n" +
+            "\n" +
             "Eggs -- 4\n" +
+            "\n" +
             "White vinegar -- 1 tablespoon\n" +
+            "\n" +
             "Butter -- 1/2 cup\n" +
+            "\n" +
             "Egg yolks -- 4\n" +
+            "\n" +
             "Lemon juice -- 1 tablespoon\n" +
+            "\n" +
             "Salt -- 1/4 teaspoon\n" +
+            "\n" +
             "Cayenne pepper -- dash",
         "All-purpose flour -- 1 1/2 cups\n" +
                 "Baking powder -- 3 1/2 teaspoons\n" +
