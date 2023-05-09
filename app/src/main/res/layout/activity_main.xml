@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF5EE"
+    tools:context=".Menu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="899dp"
+            android:layout_height="170dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/curve" />
+
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="44dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/menu" />
+
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="148dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toEndOf="@+id/imageButton2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/splashbg" />
+
+        <ImageButton
+            android:id="@+id/userProfile"
+            android:layout_width="57dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.842"
+            app:layout_constraintStart_toEndOf="@+id/imageButton3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/profile_user" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:layout_marginTop="56dp"
+            android:background="#D6D5D3"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+            <RelativeLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/italianFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/italianlogo" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/filipinoFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/filipinologo" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/koreanFood"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/koreanlogo" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <RelativeLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp">
+
+                    <ImageButton
+                        android:id="@+id/breakfastLogo"
+                        android:layout_width="500dp"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/breakfastbg" />
+
+                    <!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="150dp"-->
+<!--                        android:layout_marginStart="22dp"-->
+<!--                        android:layout_marginTop="22dp"-->
+<!--                        android:layout_marginEnd="22dp"-->
+<!--                        android:layout_marginBottom="22dp"-->
+<!--                        android:background="@drawable/round_bk2">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:fontFamily="@font/koreanfont"-->
+<!--                            android:padding="25dp"-->
+<!--                            android:text="BreakFast"-->
+<!--                            android:textColor="@color/black"-->
+<!--                            android:textSize="30sp">-->
+
+<!--                        </TextView>-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/breakfastLogo"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_alignParentBottom="true"-->
+<!--                            android:background="#00000000"-->
+<!--                            android:padding="20dp"-->
+<!--                            android:text="Click Here"-->
+<!--                            android:textColor="@color/black" />-->
+
+
+<!--                    </RelativeLayout>-->
+
+
+<!--                    <ImageView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentTop="true"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:layout_marginTop="-8dp"-->
+<!--                        android:layout_marginRight="-1dp"-->
+<!--                        android:src="@drawable/food3" />-->
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="390dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+                <ImageButton
+                    android:id="@+id/lunchlogo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:paddingRight="15dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/lunchbg" />
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="150dp"-->
+<!--                    android:layout_marginStart="22dp"-->
+<!--                    android:layout_marginTop="22dp"-->
+<!--                    android:layout_marginEnd="22dp"-->
+<!--                    android:layout_marginBottom="22dp"-->
+<!--                    android:background="@drawable/food_back">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentTop="true"-->
+<!--                        android:layout_alignParentEnd="true"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:layout_marginTop="18dp"-->
+<!--                        android:layout_marginEnd="14dp"-->
+<!--                        android:layout_marginBottom="99dp"-->
+<!--                        android:fontFamily="@font/koreanfont"-->
+<!--                        android:text="Lunch"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="33sp" />-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/lunchlogo"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentRight="true"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:layout_marginBottom="-3dp"-->
+<!--                        android:background="#00000000"-->
+<!--                        android:padding="20dp"-->
+<!--                        android:text="Click Here"-->
+<!--                        android:textColor="@color/white" />-->
+
+
+<!--                </RelativeLayout>-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="91dp"-->
+<!--                    android:layout_alignParentLeft="true"-->
+<!--                    android:adjustViewBounds="true"-->
+<!--                    android:src="@drawable/food2" />-->
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout3"
+                android:layout_width="390dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/relativeLayout">
+
+                <ImageButton
+                    android:id="@+id/dinnerlogo"
+                    android:paddingRight="5dp"
+                    android:layout_width="370dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="-5dp"
+                    android:background="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/dinnerbg" />
+
+
+                <!--                <RelativeLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="150dp"-->
+<!--                    android:layout_marginStart="22dp"-->
+<!--                    android:layout_marginTop="22dp"-->
+<!--                    android:layout_marginEnd="22dp"-->
+<!--                    android:layout_marginBottom="22dp"-->
+<!--                    android:background="@drawable/round_bk5"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/relativeLayout">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:fontFamily="@font/koreanfont"-->
+<!--                        android:padding="25dp"-->
+<!--                        android:text="Dinner"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="30sp">-->
+
+<!--                    </TextView>-->
+
+<!--                    <Button-->
+<!--                        android:id="@+id/dinnerlogo"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_alignParentBottom="true"-->
+<!--                        android:background="#00000000"-->
+<!--                        android:padding="20dp"-->
+<!--                        android:text="Click Here"-->
+<!--                        android:textColor="@color/white" />-->
+
+
+<!--                </RelativeLayout>-->
+
+            </RelativeLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/annyeong"
+            android:text="Kitchenkonnect"
+            android:textSize="33dp"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

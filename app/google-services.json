@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "381096919826",
+    "project_id": "login-register-firebase-b1587",
+    "storage_bucket": "login-register-firebase-b1587.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381096919826:android:84527eda7e05504c90e9cb",
+        "android_client_info": {
+          "package_name": "com.labactivity.kitchenkonek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381096919826-0at5bb8g9tkui0n799q7ivkt6rs45254.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1x2StqWF4GPRSp5RGYayqEnPJhmO9DoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381096919826-0at5bb8g9tkui0n799q7ivkt6rs45254.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
