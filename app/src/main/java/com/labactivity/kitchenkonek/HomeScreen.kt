@@ -4,35 +4,35 @@ import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.labactivity.kitchenkonek.databinding.ActivityMainBinding
+import com.labactivity.kitchenkonek.databinding.HomescreenBinding
 
-class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
+class HomeScreen : AppCompatActivity() {
+    private lateinit var binding: HomescreenBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = HomescreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.italianFood.setOnClickListener() {
-            gotoactivity(this, Menu::class.java, "category1", "recipe1")
+            gotoactivity(this, MenuActivity::class.java, "category1", "recipe1")
         }
         binding.filipinoFood.setOnClickListener(){
-            gotoactivity(this, Menu::class.java, "category2", "recipe2")
+            gotoactivity(this, MenuActivity::class.java, "category2", "recipe2")
         }
         binding.koreanFood.setOnClickListener(){
-            gotoactivity(this, Menu::class.java, "category3", "recipe3")
+            gotoactivity(this, MenuActivity::class.java, "category3", "recipe3")
 
         }
         binding.breakfastLogo.setOnClickListener(){
-            gotoactivity(this, Menu::class.java,"category4", "recipe4")
+            gotoactivity(this, MenuActivity::class.java,"category4", "recipe4")
         }
 
         binding.lunchlogo.setOnClickListener(){
-            gotoactivity(this, Menu::class.java,"category5", "recipe5")
+            gotoactivity(this, MenuActivity::class.java,"category5", "recipe5")
         }
 
         binding.dinnerlogo.setOnClickListener(){
-            gotoactivity(this, Menu::class.java,"category6", "recipe6")
+            gotoactivity(this, MenuActivity::class.java,"category6", "recipe6")
         }
 
         binding.userProfile.setOnClickListener(){

@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.labactivity.kitchenkonek.databinding.ActivityMenuBinding
 
 
-class Menu : AppCompatActivity() {
+class MenuActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMenuBinding
     private lateinit var recyclerView: RecyclerView
     private lateinit var foodList: ArrayList<Food>
@@ -30,13 +30,13 @@ class Menu : AppCompatActivity() {
         var dinnerFoods = intent.getStringExtra("category6").equals("recipe6")
 
 
-        val labelOfFoods : DetailedActivity = DetailedActivity()
+        val labelOfFoods: FoodDetailsActivity = FoodDetailsActivity()
 
 
         if (italianFoods) {
             binding.category.setText("Italian Recipe")
             foodList = ArrayList()
-            foodList.add(Food(R.drawable.spaghetti_aglio_eolio,  labelOfFoods.italianFood[0]))
+            foodList.add(Food(R.drawable.spaghetti_aglio_eolio, labelOfFoods.italianFood[0]))
             foodList.add(Food(R.drawable.pasta_carbonara, labelOfFoods.italianFood[1]))
             foodList.add(Food(R.drawable.margherita_pizza_recipe, labelOfFoods.italianFood[2]))
             foodList.add(Food(R.drawable.pesto_pasta, labelOfFoods.italianFood[3]))
@@ -46,31 +46,30 @@ class Menu : AppCompatActivity() {
 
 
             foodAdapter.onItemClick = {
-                val intent = Intent(this, DetailedActivity::class.java)
+                val intent = Intent(this, FoodDetailsActivity::class.java)
                 intent.putExtra("food", it)
                 startActivity(intent)
             }
 
-        }else if (filipinoFoods){
+        } else if (filipinoFoods) {
             binding.category.setText("Filipino Recipe")
             foodList = ArrayList()
             foodList.add(Food(R.drawable.chickenadobo, labelOfFoods.filipinoFood[0]))
-            foodList.add(Food(R.drawable.sinigangnababoy,  labelOfFoods.filipinoFood[1]))
-            foodList.add(Food(R.drawable.karekare,  labelOfFoods.filipinoFood[2]))
-            foodList.add(Food(R.drawable.chopsuey,  labelOfFoods.filipinoFood[3]))
+            foodList.add(Food(R.drawable.sinigangnababoy, labelOfFoods.filipinoFood[1]))
+            foodList.add(Food(R.drawable.karekare, labelOfFoods.filipinoFood[2]))
+            foodList.add(Food(R.drawable.chopsuey, labelOfFoods.filipinoFood[3]))
 
             foodAdapter = FoodAdapter(foodList)
             recyclerView.adapter = foodAdapter
 
 
             foodAdapter.onItemClick = {
-                val intent = Intent(this, DetailedActivity::class.java)
+                val intent = Intent(this, FoodDetailsActivity::class.java)
                 intent.putExtra("food", it)
                 startActivity(intent)
             }
 
-        }
-        else if(koreanfoods){
+        } else if (koreanfoods) {
             binding.category.setText("Korean Recipe")
             foodList = ArrayList()
             foodList.add(Food(R.drawable.bibimbap, labelOfFoods.koreanFood[0]))
@@ -83,19 +82,17 @@ class Menu : AppCompatActivity() {
 
 
             foodAdapter.onItemClick = {
-                val intent = Intent(this, DetailedActivity::class.java)
+                val intent = Intent(this, FoodDetailsActivity::class.java)
                 intent.putExtra("food", it)
                 startActivity(intent)
             }
 
-        }
-
-        else if(breakfastFoods){
+        } else if (breakfastFoods) {
             binding.category.setText("Breakfast Recipe")
             foodList = ArrayList()
             foodList.add(Food(R.drawable.eggsbenedict, labelOfFoods.breakfastFood[0]))
             foodList.add(Food(R.drawable.buttermilkpancakes, labelOfFoods.breakfastFood[1]))
-            foodList.add(Food(R.drawable.frenchtoast,  labelOfFoods.breakfastFood[2]))
+            foodList.add(Food(R.drawable.frenchtoast, labelOfFoods.breakfastFood[2]))
             foodList.add(Food(R.drawable.breakfastburrito, labelOfFoods.breakfastFood[3]))
 
             foodAdapter = FoodAdapter(foodList)
@@ -103,34 +100,32 @@ class Menu : AppCompatActivity() {
 
 
             foodAdapter.onItemClick = {
-                val intent = Intent(this, DetailedActivity::class.java)
+                val intent = Intent(this, FoodDetailsActivity::class.java)
                 intent.putExtra("food", it)
                 startActivity(intent)
             }
 
 
-        }
-        else if (lunchFoods){
+        } else if (lunchFoods) {
 
             binding.category.setText("Lunch Recipe")
             foodList = ArrayList()
             foodList.add(Food(R.drawable.capresesalad, labelOfFoods.lunchFood[0]))
             foodList.add(Food(R.drawable.bltsandwich, labelOfFoods.lunchFood[1]))
-            foodList.add(Food(R.drawable.chickencaesarsalad,  labelOfFoods.lunchFood[2]))
-            foodList.add(Food(R.drawable.grileedcheesesandwich,  labelOfFoods.lunchFood[3]))
+            foodList.add(Food(R.drawable.chickencaesarsalad, labelOfFoods.lunchFood[2]))
+            foodList.add(Food(R.drawable.grileedcheesesandwich, labelOfFoods.lunchFood[3]))
 
             foodAdapter = FoodAdapter(foodList)
             recyclerView.adapter = foodAdapter
 
 
             foodAdapter.onItemClick = {
-                val intent = Intent(this, DetailedActivity::class.java)
+                val intent = Intent(this, FoodDetailsActivity::class.java)
                 intent.putExtra("food", it)
                 startActivity(intent)
             }
 
-        }
-        else if (dinnerFoods){
+        } else if (dinnerFoods) {
             binding.category.setText("Dinner Recipe")
             foodList = ArrayList()
             foodList.add(Food(R.drawable.grilledsteak, labelOfFoods.dinnerFood[0]))
@@ -143,18 +138,13 @@ class Menu : AppCompatActivity() {
 
 
             foodAdapter.onItemClick = {
-                val intent = Intent(this, DetailedActivity::class.java)
+                val intent = Intent(this, FoodDetailsActivity::class.java)
                 intent.putExtra("food", it)
                 startActivity(intent)
             }
 
 
-
-
-
         }
-
-
 
 
     }

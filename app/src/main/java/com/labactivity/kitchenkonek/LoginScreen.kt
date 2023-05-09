@@ -6,8 +6,6 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.labactivity.kitchenkonek.databinding.LoginscreenlayoutBinding
-import java.io.File
-import java.util.regex.*;
 
 class LoginScreen : AppCompatActivity() {
     var credentialOfUser: credentialOfUser = credentialOfUser()
@@ -31,7 +29,7 @@ class LoginScreen : AppCompatActivity() {
 
             else if (username.equals(credentialOfUser.username) && password.equals(credentialOfUser.password))
             {
-                val i = Intent(this, MainActivity::class.java)
+                val i = Intent(this, HomeScreen::class.java)
                 startActivity(i)
                 finish()
                 Toast.makeText(this, "Logging in...", Toast.LENGTH_SHORT).show()

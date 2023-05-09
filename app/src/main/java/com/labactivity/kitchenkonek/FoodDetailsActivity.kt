@@ -4,14 +4,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
-import com.labactivity.kitchenkonek.databinding.OptionallayoutforcontentBinding
+import com.labactivity.kitchenkonek.databinding.FooddetailscreenBinding
 
 
-class DetailedActivity : AppCompatActivity() {
-    private lateinit var binding: OptionallayoutforcontentBinding
+class FoodDetailsActivity : AppCompatActivity() {
+    private lateinit var binding: FooddetailscreenBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = OptionallayoutforcontentBinding.inflate(layoutInflater)
+        binding = FooddetailscreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
 

@@ -16,13 +16,13 @@
             android:name=".RecipeDetails"
             android:exported="false" />
         <activity
-            android:name=".DetailedActivity"
+            android:name=".FoodDetailsActivity"
             android:exported="false" />
         <activity
             android:name=".UserProfile"
             android:exported="false" />
         <activity
-            android:name=".Menu"
+            android:name=".MenuActivity"
             android:exported="false" />
         <activity android:name=".LoginScreen"
             android:exported="false"/>
@@ -35,7 +35,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".HomeScreen"
             android:exported="false">
         </activity>
     </application>
