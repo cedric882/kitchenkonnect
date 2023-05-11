@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/aboutusdeveloper"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="About Us"
+            android:textColor="#FFF9F3"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/jonathan_signature"
+            android:text="Kitchen Konnect"
+            android:textSize="41sp"
+            android:textColor="#EDE8EA"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Kitchen Konnect was founded by three passionate developers - Paolo, Vina, and Cedric. With their shared love of food and technology, they set out to create a mobile app that would make it easy for people to discover and share delicious recipes."
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Our mission is to bring people together through the love of food. Our app makes it easy for you to discover new recipes, and share your favorite dishes with friends and family."
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Together, Paolo, Vina, and Cedric have created a mobile app that reflects their shared vision of bringing people together through the love of food."
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boxradius"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppinsmedium"
+                android:text="Developers"
+                android:textColor="#AB8742"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="500dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/cedric" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:padding="10dp"
+                    android:textColor="#393939"
+                    android:text="Paolo Ortega is an experienced chef who has worked in some of the best Italian restaurants in the world. His expertise in Italian cuisine has been invaluable in curating our app's collection of authentic Italian recipes." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="500dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/cedric" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:padding="10dp"
+                    android:textColor="#393939"
+                    android:text="Vina De Guzman is a food blogger and photographer who has a keen eye for visual design. She has been instrumental in creating the app's user-friendly interface and making sure that the recipes are presented in a visually appealing way." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="500dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/cedric" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:padding="10dp"
+                    android:textColor="#393939"
+                    android:text="Cedric Pangan is a software engineer with a passion for developing mobile apps. He has been responsible for designing and building the app's architecture, ensuring that it is secure, fast, and reliable." />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

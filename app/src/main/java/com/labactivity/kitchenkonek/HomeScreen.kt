@@ -38,6 +38,9 @@ class HomeScreen : AppCompatActivity() {
         binding.userProfile.setOnClickListener(){
             gotoactivity(this, UserProfile::class.java,"category7", "recipe7")
         }
+        binding.aboutUsBtn.setOnClickListener(){
+            gotoactivity(this, AboutUs::class.java)
+        }
 
 
     }
