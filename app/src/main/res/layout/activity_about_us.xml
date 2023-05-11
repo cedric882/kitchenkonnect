@@ -2,15 +2,15 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#CEA46B"
+    android:orientation="vertical"
     tools:context=".AboutUs">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/aboutusdeveloper"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
 
@@ -31,8 +31,8 @@
             android:layout_gravity="center"
             android:fontFamily="@font/jonathan_signature"
             android:text="Kitchen Konnect"
-            android:textSize="41sp"
             android:textColor="#EDE8EA"
+            android:textSize="41sp"
             android:textStyle="bold" />
 
 
@@ -109,8 +109,8 @@
                     android:layout_marginStart="8dp"
                     android:fontFamily="@font/poppinsmedium"
                     android:padding="10dp"
-                    android:textColor="#393939"
-                    android:text="Paolo Ortega is an experienced chef who has worked in some of the best Italian restaurants in the world. His expertise in Italian cuisine has been invaluable in curating our app's collection of authentic Italian recipes." />
+                    android:text="Paolo Ortega is an experienced chef who has worked in some of the best Italian restaurants in the world. His expertise in Italian cuisine has been invaluable in curating our app's collection of authentic Italian recipes."
+                    android:textColor="#393939" />
             </LinearLayout>
 
             <LinearLayout
@@ -137,8 +137,8 @@
                     android:layout_marginStart="8dp"
                     android:fontFamily="@font/poppinsmedium"
                     android:padding="10dp"
-                    android:textColor="#393939"
-                    android:text="Vina De Guzman is a food blogger and photographer who has a keen eye for visual design. She has been instrumental in creating the app's user-friendly interface and making sure that the recipes are presented in a visually appealing way." />
+                    android:text="Vina De Guzman is a food blogger and photographer who has a keen eye for visual design. She has been instrumental in creating the app's user-friendly interface and making sure that the recipes are presented in a visually appealing way."
+                    android:textColor="#393939" />
             </LinearLayout>
 
             <LinearLayout
@@ -165,8 +165,8 @@
                     android:layout_marginStart="8dp"
                     android:fontFamily="@font/poppinsmedium"
                     android:padding="10dp"
-                    android:textColor="#393939"
-                    android:text="Cedric Pangan is a software engineer with a passion for developing mobile apps. He has been responsible for designing and building the app's architecture, ensuring that it is secure, fast, and reliable." />
+                    android:text="Cedric Pangan is a software engineer with a passion for developing mobile apps. He has been responsible for designing and building the app's architecture, ensuring that it is secure, fast, and reliable."
+                    android:textColor="#393939" />
             </LinearLayout>
 
         </LinearLayout>
