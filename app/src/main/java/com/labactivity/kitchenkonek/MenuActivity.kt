@@ -37,7 +37,7 @@ class MenuActivity : AppCompatActivity() {
             binding.category.setText("Italian Recipe")
             foodList = ArrayList()
             foodList.add(Food(R.drawable.spaghetti_aglio_eolio, labelOfFoods.italianFood[0]))
-            foodList.add(Food(R.drawable.pasta_carbonara, labelOfFoods.italianFood[1]))
+            foodList.add(Food(R.drawable.pastacarbonara, labelOfFoods.italianFood[1]))
             foodList.add(Food(R.drawable.margherita_pizza_recipe, labelOfFoods.italianFood[2]))
             foodList.add(Food(R.drawable.pesto_pasta, labelOfFoods.italianFood[3]))
             foodList.add(Food(R.drawable.risotto, labelOfFoods.italianFood[4]))

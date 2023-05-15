@@ -15,9 +15,9 @@ class UserProfile : AppCompatActivity() {
         binding = UserprofileLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val intent : HomeScreen = HomeScreen()
         binding.logo.setOnClickListener(){
-            intent.gotoactivity(this, HomeScreen::class.java)
+            val intent = Intent(this, HomeScreen::class.java)
+            startActivity(intent)
             finish()
         }
 

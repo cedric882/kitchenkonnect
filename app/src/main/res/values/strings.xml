@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">KitchenKonnect</string>
     <string name="username">\@jorgekim</string>
+    <string name="paolodeveloper">Paolo Ortega is an experienced chef who has worked in some of the best Italian restaurants in the world. His expertise in Italian cuisine has been invaluable in curating our app\'s collection of authentic Italian recipes.</string>
+    <string name="vinadeveloper">Vina De Guzman is a food blogger and photographer who has a keen eye for visual design. She has been instrumental in creating the app\'s user-friendly interface and making sure that the recipes are presented in a visually appealing way.</string>
+    <string name="cedricdeveloper">Cedric Pangan is a software engineer with a passion for developing mobile apps. He has been responsible for designing and building the app\'s architecture, ensuring that it is secure, fast, and reliable.</string>
+    <string name="cedriccontact">cedric.pangan@neu.edu.ph\n0965-870-6196</string>
+    <string name="vinacontact">vina.deguzman@neu.edu.ph\n0906-400-0224</string>
+    <string name="paolocontact">paolo.ortega@neu.edu.ph\n0955-894-3405</string>
 </resources>

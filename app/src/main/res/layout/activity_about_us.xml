@@ -11,8 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical">
 
 
         <TextView
@@ -105,14 +104,42 @@
                         android:src="@drawable/paoloortega" />
                 </androidx.cardview.widget.CardView>
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:padding="10dp"
-                    android:text="Paolo Ortega is an experienced chef who has worked in some of the best Italian restaurants in the world. His expertise in Italian cuisine has been invaluable in curating our app's collection of authentic Italian recipes."
-                    android:textColor="#393939" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:padding="10dp"
+                        android:text="@string/paolodeveloper"
+                        android:textColor="#393939" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/contactusicon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/paolocontact"
+                            android:textColor="#393939"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -133,14 +160,42 @@
                         android:src="@drawable/vinadeguzman" />
                 </androidx.cardview.widget.CardView>
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:padding="10dp"
-                    android:text="Vina De Guzman is a food blogger and photographer who has a keen eye for visual design. She has been instrumental in creating the app's user-friendly interface and making sure that the recipes are presented in a visually appealing way."
-                    android:textColor="#393939" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:padding="8dp"
+                        android:text="@string/vinadeveloper"
+                        android:textColor="#393939" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/contactusicon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/vinacontact"
+                            android:textColor="#393939"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
@@ -161,14 +216,42 @@
                         android:src="@drawable/cedric" />
                 </androidx.cardview.widget.CardView>
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:padding="10dp"
-                    android:text="Cedric Pangan is a software engineer with a passion for developing mobile apps. He has been responsible for designing and building the app's architecture, ensuring that it is secure, fast, and reliable."
-                    android:textColor="#393939" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:fontFamily="@font/poppinsmedium"
+                        android:padding="10dp"
+                        android:text="@string/cedricdeveloper"
+                        android:textColor="#393939" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@drawable/contactusicon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/cedriccontact"
+                            android:textColor="#393939"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
