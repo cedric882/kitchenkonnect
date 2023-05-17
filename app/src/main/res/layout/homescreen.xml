@@ -164,50 +164,6 @@
                         android:scaleType="fitCenter"
                         android:src="@drawable/breakfastbg" />
 
-                    <!--                    <RelativeLayout-->
-                    <!--                        android:layout_width="match_parent"-->
-                    <!--                        android:layout_height="150dp"-->
-                    <!--                        android:layout_marginStart="22dp"-->
-                    <!--                        android:layout_marginTop="22dp"-->
-                    <!--                        android:layout_marginEnd="22dp"-->
-                    <!--                        android:layout_marginBottom="22dp"-->
-                    <!--                        android:background="@drawable/round_bk2">-->
-
-                    <!--                        <TextView-->
-                    <!--                            android:layout_width="wrap_content"-->
-                    <!--                            android:layout_height="wrap_content"-->
-                    <!--                            android:fontFamily="@font/koreanfont"-->
-                    <!--                            android:padding="25dp"-->
-                    <!--                            android:text="BreakFast"-->
-                    <!--                            android:textColor="@color/black"-->
-                    <!--                            android:textSize="30sp">-->
-
-                    <!--                        </TextView>-->
-
-                    <!--                        <Button-->
-                    <!--                            android:id="@+id/breakfastLogo"-->
-                    <!--                            android:layout_width="wrap_content"-->
-                    <!--                            android:layout_height="wrap_content"-->
-                    <!--                            android:layout_alignParentBottom="true"-->
-                    <!--                            android:background="#00000000"-->
-                    <!--                            android:padding="20dp"-->
-                    <!--                            android:text="Click Here"-->
-                    <!--                            android:textColor="@color/black" />-->
-
-
-                    <!--                    </RelativeLayout>-->
-
-
-                    <!--                    <ImageView-->
-                    <!--                        android:layout_width="wrap_content"-->
-                    <!--                        android:layout_height="wrap_content"-->
-                    <!--                        android:layout_alignParentTop="true"-->
-                    <!--                        android:layout_alignParentRight="true"-->
-                    <!--                        android:layout_marginTop="-8dp"-->
-                    <!--                        android:layout_marginRight="-1dp"-->
-                    <!--                        android:src="@drawable/food3" />-->
-
-
                 </RelativeLayout>
 
 
@@ -231,50 +187,6 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/lunchbg" />
 
-                <!--                <RelativeLayout-->
-                <!--                    android:layout_width="wrap_content"-->
-                <!--                    android:layout_height="150dp"-->
-                <!--                    android:layout_marginStart="22dp"-->
-                <!--                    android:layout_marginTop="22dp"-->
-                <!--                    android:layout_marginEnd="22dp"-->
-                <!--                    android:layout_marginBottom="22dp"-->
-                <!--                    android:background="@drawable/food_back">-->
-
-                <!--                    <TextView-->
-                <!--                        android:layout_width="wrap_content"-->
-                <!--                        android:layout_height="wrap_content"-->
-                <!--                        android:layout_alignParentTop="true"-->
-                <!--                        android:layout_alignParentEnd="true"-->
-                <!--                        android:layout_alignParentBottom="true"-->
-                <!--                        android:layout_marginTop="18dp"-->
-                <!--                        android:layout_marginEnd="14dp"-->
-                <!--                        android:layout_marginBottom="99dp"-->
-                <!--                        android:fontFamily="@font/koreanfont"-->
-                <!--                        android:text="Lunch"-->
-                <!--                        android:textColor="@color/white"-->
-                <!--                        android:textSize="33sp" />-->
-
-                <!--                    <Button-->
-                <!--                        android:id="@+id/lunchlogo"-->
-                <!--                        android:layout_width="wrap_content"-->
-                <!--                        android:layout_height="wrap_content"-->
-                <!--                        android:layout_alignParentRight="true"-->
-                <!--                        android:layout_alignParentBottom="true"-->
-                <!--                        android:layout_marginBottom="-3dp"-->
-                <!--                        android:background="#00000000"-->
-                <!--                        android:padding="20dp"-->
-                <!--                        android:text="Click Here"-->
-                <!--                        android:textColor="@color/white" />-->
-
-
-                <!--                </RelativeLayout>-->
-
-                <!--                <ImageView-->
-                <!--                    android:layout_width="wrap_content"-->
-                <!--                    android:layout_height="91dp"-->
-                <!--                    android:layout_alignParentLeft="true"-->
-                <!--                    android:adjustViewBounds="true"-->
-                <!--                    android:src="@drawable/food2" />-->
 
             </RelativeLayout>
 
@@ -298,40 +210,6 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/dinnerbg" />
 
-
-                <!--                <RelativeLayout-->
-                <!--                    android:layout_width="wrap_content"-->
-                <!--                    android:layout_height="150dp"-->
-                <!--                    android:layout_marginStart="22dp"-->
-                <!--                    android:layout_marginTop="22dp"-->
-                <!--                    android:layout_marginEnd="22dp"-->
-                <!--                    android:layout_marginBottom="22dp"-->
-                <!--                    android:background="@drawable/round_bk5"-->
-                <!--                    app:layout_constraintTop_toBottomOf="@+id/relativeLayout">-->
-
-                <!--                    <TextView-->
-                <!--                        android:layout_width="wrap_content"-->
-                <!--                        android:layout_height="wrap_content"-->
-                <!--                        android:fontFamily="@font/koreanfont"-->
-                <!--                        android:padding="25dp"-->
-                <!--                        android:text="Dinner"-->
-                <!--                        android:textColor="@color/white"-->
-                <!--                        android:textSize="30sp">-->
-
-                <!--                    </TextView>-->
-
-                <!--                    <Button-->
-                <!--                        android:id="@+id/dinnerlogo"-->
-                <!--                        android:layout_width="wrap_content"-->
-                <!--                        android:layout_height="wrap_content"-->
-                <!--                        android:layout_alignParentBottom="true"-->
-                <!--                        android:background="#00000000"-->
-                <!--                        android:padding="20dp"-->
-                <!--                        android:text="Click Here"-->
-                <!--                        android:textColor="@color/white" />-->
-
-
-                <!--                </RelativeLayout>-->
 
             </RelativeLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

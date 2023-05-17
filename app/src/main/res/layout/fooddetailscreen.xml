@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/spaghetti_aglio_eolio" />
+                android:src="@drawable/chickenadobo" />
 
             <!-- Recipe Title -->
             <TextView
@@ -31,7 +31,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Adobong Manok"
+                android:text="@string/foodRecipeTitle"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="Adobo refers to a method of marinating and stewing for any cut of meat or fish in a briny mixture of vinegar, soy sauce, and spices. Filipino adobo should not be confused with the spicy Spanish adobo sauce. Although they both share the Spanish name, they are vastly different in flavor and ingredients"
+                android:text="@string/foodDesc"
                 android:textColor="@color/black"
                 android:textSize="17sp" />
 
@@ -74,7 +74,7 @@
                 android:id="@+id/recipe_ingredients"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="2 tbsp canola oil\n6 cloves garlic crushed\n1 pc onion, sliced\n1 kilogram chicken cut ups\n2 tbsp vinegar\n1/4 cup soy sauce\n1 cup water\n2 pcs bay leaves\n1 tsp whole black peppercorns, slightly crushed\n2 pc Knorr chicken cubes\n1 tsp brown sugar packed\n"
+                android:text="@string/ingredients"
                 android:textColor="@color/black"
                 android:textSize="16sp"></TextView>
 
@@ -92,7 +92,7 @@
                 android:id="@+id/procedure_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Procedure"
+                android:text="@string/procedure1"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -107,7 +107,7 @@
                 android:id="@+id/recipe_procedure"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Step 1: Do this\nStep 2: Do that\nStep 3: Do something else"
+                android:text="@string/procedure"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 

@@ -12,7 +12,7 @@
         android:id="@+id/category"
         android:layout_width="match_parent"
         android:layout_height="90dp"
-        android:text="Filipino foods"
+        android:text="@string/filipino_recipe"
         android:padding="10dp"
         android:gravity="center"
         android:textSize="35sp"

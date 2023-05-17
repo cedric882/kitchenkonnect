@@ -13,4 +13,10 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="forgot_password">Forgot Password?</string>
+    <string name="foodRecipeTitle">Adobong Manok</string>
+    <string name="foodDesc">Adobo refers to a method of marinating and stewing for any cut of meat or fish in a briny mixture of vinegar, soy sauce, and spices. Filipino adobo should not be confused with the spicy Spanish adobo sauce. Although they both share the Spanish name, they are vastly different in flavor and ingredients</string>
+    <string name="ingredients">2 tbsp canola oil\n6 cloves garlic crushed\n1 pc onion, sliced\n1 kilogram chicken cut ups\n2 tbsp vinegar\n1/4 cup soy sauce\n1 cup water\n2 pcs bay leaves\n1 tsp whole black peppercorns, slightly crushed\n2 pc Knorr chicken cubes\n1 tsp brown sugar packed\n</string>
+    <string name="procedure">Step 1: Do this\nStep 2: Do that\nStep 3: Do something else</string>
+    <string name="procedure1">Procedure</string>
+    <string name="filipino_recipe">Filipino Recipe</string>
 </resources>

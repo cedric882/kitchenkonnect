@@ -47,6 +47,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/poppinsmedium"
+                android:text="Together, Paolo, Vina, and Cedric have created a mobile app that reflects their shared vision of bringing people together through the love of food."
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/poppinsmedium"
                 android:text="Kitchen Konnect was founded by three passionate developers - Paolo, Vina, and Cedric. With their shared love of food and technology, they set out to create a mobile app that would make it easy for people to discover and share delicious recipes."
                 android:textAlignment="center" />
 
@@ -56,14 +64,6 @@
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/poppinsmedium"
                 android:text="Our mission is to bring people together through the love of food. Our app makes it easy for you to discover new recipes, and share your favorite dishes with friends and family."
-                android:textAlignment="center" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:fontFamily="@font/poppinsmedium"
-                android:text="Together, Paolo, Vina, and Cedric have created a mobile app that reflects their shared vision of bringing people together through the love of food."
                 android:textAlignment="center" />
 
         </LinearLayout>

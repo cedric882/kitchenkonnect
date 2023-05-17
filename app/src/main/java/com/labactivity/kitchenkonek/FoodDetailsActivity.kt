@@ -190,14 +190,19 @@ class FoodDetailsActivity : AppCompatActivity() {
             "Water -- 1 cup\n\n" +
             "Oil -- 1/4 cup",
 
-        "pork. Choose from belly, shoulder or ham, ribs or hock\n\n" +
-                "tamarind. You may use fresh unripe tamarind like the traditional way. You can also use powdered tamarind mix made for Sinigang or tamarind paste in jar\n" +
-                "\nred onion- yellow onion can also be used\n" +
-                "\ntomato -use ripe plump ones\n" +
-                "\nfish sauce or salt\n" +
-                "\nradish (labanos)\n" +
-                "\nkangkong (water spinach)\n" +
-                "finger chili (Siling haba)\n"
+        "2 lbs. pork belly sliced into cubes\n\n" +
+                "2 to 3 cups kangkong leaves\n\n" +
+                "3 pieces long green chili pepper siling pansigang\n\n" +
+                "2 pieces tomato quartered\n\n" +
+                "1 cup sliced daikon radish labanos\n" +
+                "10 to 12 pieces snake beans cut in 2 inch length pieces\n\n" +
+                "1 piece onion quartered\n\n" +
+                "15 pieces okra\n\n" +
+                "2 pieces taro peeled and cut in half (gabi)\n\n" +
+                "8 cups water\n\n" +
+                "2 packs Knorr Sinigang sa Sampaloc Mix Original (20 gram pack)\n\n" +
+                "3 tablespoons fish sauce patis\n\n" +
+                "¼ teaspoon ground black pepper"
 
         , "3 lbs oxtail cut in 2 inch slices you an also use tripe or beef slices\n" +
                 "\n1 piece small banana flower bud sliced\n" +
@@ -417,60 +422,97 @@ class FoodDetailsActivity : AppCompatActivity() {
                 "Process finished with exit code 0\n")
 
     val koreanFoodProcedure: Array<String> = arrayOf(
-        "1. Rinse the rice in cold water and drain. Add it to a medium saucepan with the water and salt. Bring to a boil, reduce the heat to low, cover, and simmer for 18 minutes.\n" +
-                "2. In a bowl, mix the ground beef with the soy sauce, sesame oil, sugar, and black pepper. Set aside.\n" +
-                "3. Heat the vegetable oil in a large skillet over medium-high heat. Add the garlic and stir for 30 seconds.\n" +
-                "4. Add the beef mixture and cook until browned, stirring occasionally, about 5 minutes.\n" +
-                "5. Add the carrots, zucchini, and mushrooms to the skillet and stir-fry for 2-3 minutes, until the vegetables are slightly softened.\n" +
-                "6. Add the spinach and bean sprouts and stir-fry for another minute.\n" +
-                "7. Remove the skillet from the heat and stir in the gochujang sauce.\n" +
-                "8. Divide the rice between 4 bowls. Top each bowl with the beef and vegetable mixture, a fried or poached egg, and additional gochujang sauce to taste. Serve immediately.",
+        "Step 1: Rinse the rice in cold water and drain. Add it to a medium saucepan with the water and salt. Bring to a boil, reduce the heat to low, cover, and simmer for 18 minutes.\n" +
+                "\nStep 2:  In a bowl, mix the ground beef with the soy sauce, sesame oil, sugar, and black pepper. Set aside.\n" +
+                "\nStep 3: Heat the vegetable oil in a large skillet over medium-high heat. Add the garlic and stir for 30 seconds.\n" +
+                "\nStep 4: Add the beef mixture and cook until browned, stirring occasionally, about 5 minutes.\n" +
+                "\nStep 5: Add the carrots, zucchini, and mushrooms to the skillet and stir-fry for 2-3 minutes, until the vegetables are slightly softened.\n" +
+                "\n Step 6: Add the spinach and bean sprouts and stir-fry for another minute.\n" +
+                "\n Step 7: Remove the skillet from the heat and stir in the gochujang sauce.\n" +
+                "\nStep 8: Divide the rice between 4 bowls. Top each bowl with the beef and vegetable mixture, a fried or poached egg, and additional gochujang sauce to taste. Serve immediately.",
 
-        "1. Cut the cabbage into quarters and remove the core. Cut each quarter crosswise into 2-inch-wide strips.\n" +
-                "2. In a large bowl, combine the cabbage and salt. Toss to coat evenly.\n" +
-                "3. Let the cabbage sit for 2 hours, tossing occasionally.\n" +
-                "4. Rinse the cabbage in cold water and drain well.\n" +
-                "5. In a large bowl, combine the chili flakes, sugar, garlic, ginger, and green onions. Add the cabbage and toss to coat.\n" +
-                "6. Transfer the mixture to a large glass jar or ceramic crock, pressing down firmly to remove air pockets.\n" +
-                "7. In a small bowl, whisk together the fish sauce, water, and Korean radish. Pour over the cabbage until it is covered.\n" +
-                "8. Cover the jar or crock loosely with a lid or plastic wrap and let it sit at room temperature for 2-5 days, until the kimchi is sour and bubbly.\n" +
-                "9. Transfer the kimchi to a lidded container and refrigerate for up to 1 month.",
+        "Step 2: Cut the cabbage into quarters and remove the core. Cut each quarter crosswise into 2-inch-wide strips.\n" +
+                "\n" +
+                "Step 2: In a large bowl, combine the cabbage and salt. Toss to coat evenly.\n" +
+                "\n" +
+                "Step 3: Let the cabbage sit for 2 hours, tossing occasionally.\n" +
+                "\n" +
+                "Step 4: Rinse the cabbage in cold water and drain well.\n" +
+                "\n" +
+                "Step 5: In a large bowl, combine the chili flakes, sugar, garlic, ginger, and green onions. Add the cabbage and toss to coat.\n" +
+                "\n" +
+                "Step 6: Transfer the mixture to a large glass jar or ceramic crock, pressing down firmly to remove air pockets.\n" +
+                "\n" +
+                "Step 7: In a small bowl, whisk together the fish sauce, water, and Korean radish. Pour over the cabbage until it is covered.\n" +
+                "\n" +
+                "Step 8: Cover the jar or crock loosely with a lid or plastic wrap and let it sit at room temperature for 2-5 days, until the kimchi is sour and bubbly.\n" +
+                "\n" +
+                "Step 9: Transfer the kimchi to a lidded container and refrigerate for up to 1 month.",
 
-        "1. In a bowl, mix the beef with the soy sauce, sugar, garlic, and sesame oil. Cover and refrigerate for at least 30 minutes, or up to 2 hours.\n" +
-                "2. Heat a large skillet or grill pan over high heat. Add the beef and cook, stirring occasionally, until browned and cooked through, about 3-4 minutes.\n" +
-                "3. Serve the beef hot with steamed rice and a variety of Korean side dishes such as kimchi, pickled vegetables, and steamed greens.",
+        "Step 1: In a bowl, mix the beef with the soy sauce, sugar, garlic, and sesame oil. Cover and refrigerate for at least 30 minutes, or up to 2 hours.\n" +
+                "\n" +
+                "Step 2: Heat a large skillet or grill pan over high heat. Add the beef and cook, stirring occasionally, until browned and cooked through, about 3-4 minutes.\n" +
+                "\n" +
+                "Step 3: Serve the beef hot with steamed rice and a variety of Korean side dishes such as kimchi, pickled vegetables, and steamed greens.",
 
-        "1. Cook the sweet potato noodles according to the package instructions. Drain and rinse under cold water. Set aside.\n" +
-                "2. In a bowl, mix the beef with the soy sauce, sugar, garlic, and sesame oil. Cover and refrigerate for at least 30 minutes, or up to 2 hours.\n" +
-                "3. Heat the vegetable oil in a large skillet or wokover high heat. Add the beef and stir-fry for 2-3 minutes, until browned and cooked through.\n" +
-                "4. Push the beef to one side of the skillet and add the onion, carrot, and spinach to the other side. Stir-fry for 2-3 minutes, until the vegetables are slightly softened.\n" +
-                "5. Add the sweet potato noodles and gochujang sauce to the skillet and stir-fry for another minute.\n" +
-                "6. Remove the skillet from the heat and stir in the sesame seeds.\n" +
-                "7. Divide the noodle mixture between 4 bowls. Top each bowl with a fried or poached egg, and garnish with chopped scallions, if desired. Serve immediately.","1. Cut the beef into thin strips.\n" +
-                "2. In a bowl, mix the beef with the soy sauce, sugar, garlic, and sesame oil. Cover and refrigerate for at least 30 minutes, or up to 2 hours.\n" +
-                "3. Heat a large skillet or wok over high heat. Add the beef and stir-fry for 2-3 minutes, until browned and cooked through.\n" +
-                "4. Push the beef to one side of the skillet and add the onion and bell pepper to the other side. Stir-fry for 2-3 minutes, until the vegetables are slightly softened.\n" +
-                "5. Add the zucchini and mushrooms to the skillet and stir-fry for another minute.\n" +
-                "6. Remove the skillet from the heat and stir in the sesame seeds.\n" +
-                "7. Divide the beef and vegetable mixture between 4 bowls. Top each bowl with a fried or poached egg, and garnish with chopped scallions, if desired. Serve immediately.",
+        "Step 1: Cook the sweet potato noodles according to the package instructions. Drain and rinse under cold water. Set aside.\n" +
+                "\n" +
+                "Step 2: In a bowl, mix the beef with the soy sauce, sugar, garlic, and sesame oil. Cover and refrigerate for at least 30 minutes, or up to 2 hours.\n" +
+                "\n" +
+                "Step 3: Heat the vegetable oil in a large skillet or wokover high heat. Add the beef and stir-fry for 2-3 minutes, until browned and cooked through.\n" +
+                "\n" +
+                "Step 4: Push the beef to one side of the skillet and add the onion, carrot, and spinach to the other side. Stir-fry for 2-3 minutes, until the vegetables are slightly softened.\n" +
+                "\n" +
+                "Step 5: Add the sweet potato noodles and gochujang sauce to the skillet and stir-fry for another minute.\n" +
+                "\n" +
+                "Step 6: Remove the skillet from the heat and stir in the sesame seeds.\n" +
+                "\n" +
+                "Step 7: Divide the noodle mixture between 4 bowls. Top each bowl with a fried or poached egg, and garnish with chopped scallions, if desired. Serve immediately.",
+                "Step 1: Cut the beef into thin strips.\n" +
+                "\n" +
+                        "Step 2: In a bowl, mix the beef with the soy sauce, sugar, garlic, and sesame oil. Cover and refrigerate for at least 30 minutes, or up to 2 hours.\n" +
+                "\n" +
+                        "Step 3: Heat a large skillet or wok over high heat. Add the beef and stir-fry for 2-3 minutes, until browned and cooked through.\n" +
+                "\n" +
+                        "Step 4: Push the beef to one side of the skillet and add the onion and bell pepper to the other side. Stir-fry for 2-3 minutes, until the vegetables are slightly softened.\n" +
+                "\n" +
+                        "Step 5: Add the zucchini and mushrooms to the skillet and stir-fry for another minute.\n" +
+                "\n" +
+                        "Step 6: Remove the skillet from the heat and stir in the sesame seeds.\n" +
+                "\n" +
+                        "Step 7: Divide the beef and vegetable mixture between 4 bowls. Top each bowl with a fried or poached egg, and garnish with chopped scallions, if desired. Serve immediately.",
 
-        "1. Rinse the rice in cold water and drain. Add it to a medium saucepan with the water and salt. Bring to a boil, reduce the heat to low, cover, and simmer for 18 minutes.\n" +
-                "2. In a large skillet or wok, heat the vegetable oil over medium-high heat. Add the garlic and stir for 30 seconds.\n" +
-                "3. Add the shrimp and stir-fry for 2-3 minutes, until pink and cooked through. Remove from the skillet and set aside.\n" +
-                "4. Add the onion and bell pepper to the skillet and stir-fry for 2-3 minutes, until the vegetables are slightly softened.\n" +
-                "5. Add the zucchini and mushrooms to the skillet and stir-fry for another minute.\n" +
-                "6. Return the shrimp to the skillet and stir in the gochujang sauce.\n" +
-                "7. Remove the skillet from the heat and stir in the sesame seeds.\n" +
-                "8. Divide the rice between 4 bowls. Top each bowl with the shrimp and vegetable mixture, and garnish with chopped scallions, if desired. Serve immediately.",
+        "Step 1: Rinse the rice in cold water and drain. Add it to a medium saucepan with the water and salt. Bring to a boil, reduce the heat to low, cover, and simmer for 18 minutes.\n" +
+                "\n" +
+                "Step 2: In a large skillet or wok, heat the vegetable oil over medium-high heat. Add the garlic and stir for 30 seconds.\n" +
+                "\n" +
+                "Step 3: Add the shrimp and stir-fry for 2-3 minutes, until pink and cooked through. Remove from the skillet and set aside.\n" +
+                "\n" +
+                "Step 4: Add the onion and bell pepper to the skillet and stir-fry for 2-3 minutes, until the vegetables are slightly softened.\n" +
+                "\n" +
+                "Step 5: Add the zucchini and mushrooms to the skillet and stir-fry for another minute.\n" +
+                "\n" +
+                "Step 6: Return the shrimp to the skillet and stir in the gochujang sauce.\n" +
+                "\n" +
+                "Step 7: Remove the skillet from the heat and stir in the sesame seeds.\n" +
+                "\n" +
+                "Step 8: Divide the rice between 4 bowls. Top each bowl with the shrimp and vegetable mixture, and garnish with chopped scallions, if desired. Serve immediately.",
 
-        "1. Cook the sweet potato noodles according to the package instructions. Drain and rinse under cold water. Set aside.\n" +
-                "2. In a bowl, mix the shrimp with the soy sauce, sugar, garlic, and sesame oil. Cover and refrigerate for at least 30 minutes, or up to 2 hours.\n" +
-                "3. Heat the vegetable oil in a large skillet or wok over high heat. Add the shrimp and stir-fry for 2-3 minutes, until pink and cooked through.\n" +
-                "4. Remove the shrimp from the skillet and set aside. Add the onion and bell pepper to the skillet and stir-fry for 2-3 minutes, until the vegetables are slightly softened.\n" +
-                "5. Add the zucchini and mushrooms to the skillet and stir-fry for another minute.\n" +
-                "6. Return the shrimp to the skillet and stir in the cooked sweet potato noodles and gochujang sauce.\n" +
-                "7. Remove the skillet from the heat and stir in the sesame seeds.\n" +
-                "8. Divide the shrimp and noodle mixture between 4 bowls. Top each bowl with a fried or poached egg, and garnish with chopped scallions, if desired. Serve immediately.")
+        "Step 1: Cook the sweet potato noodles according to the package instructions. Drain and rinse under cold water. Set aside.\n" +
+                "\n" +
+                "Step 2: In a bowl, mix the shrimp with the soy sauce, sugar, garlic, and sesame oil. Cover and refrigerate for at least 30 minutes, or up to 2 hours.\n" +
+                "\n" +
+                "Step 3: Heat the vegetable oil in a large skillet or wok over high heat. Add the shrimp and stir-fry for 2-3 minutes, until pink and cooked through.\n" +
+                "\n" +
+                "Step 4: Remove the shrimp from the skillet and set aside. Add the onion and bell pepper to the skillet and stir-fry for 2-3 minutes, until the vegetables are slightly softened.\n" +
+                "\n" +
+                "Step 5: Add the zucchini and mushrooms to the skillet and stir-fry for another minute.\n" +
+                "\n" +
+                "Step 6: Return the shrimp to the skillet and stir in the cooked sweet potato noodles and gochujang sauce.\n" +
+                "\n" +
+                "Step 7: Remove the skillet from the heat and stir in the sesame seeds.\n" +
+                "\n" +
+                "Step 8: Divide the shrimp and noodle mixture between 4 bowls. Top each bowl with a fried or poached egg, and garnish with chopped scallions, if desired. Serve immediately.")
 
 
     // breakfast food
@@ -498,52 +540,70 @@ class FoodDetailsActivity : AppCompatActivity() {
             "Salt -- 1/4 teaspoon\n" +
             "\n" +
             "Cayenne pepper -- dash",
-        "All-purpose flour -- 1 1/2 cups\n" +
-                "Baking powder -- 3 1/2 teaspoons\n" +
-                "Salt -- 1 teaspoon\n" +
-                "Sugar -- 1 tablespoon\n" +
-                "Buttermilk -- 1 1/4 cups\n" +
-                "Egg -- 1\n" +
+        "All-purpose flour -- 1 1/2 cups\n\n" +
+                "Baking powder -- 3 1/2 teaspoons\n\n" +
+                "Salt -- 1 teaspoon\n\n" +
+                "Sugar -- 1 tablespoon\n\n" +
+                "Buttermilk -- 1 1/4 cups\n\n" +
+                "Egg -- 1\n\n" +
                 "Butter, melted -- 3 tablespoons",
-        "Bread slices -- 8\n" +
-                "Eggs -- 4\n" +
+        "Bread slices -- 8\n\n" +
+                "Eggs -- 4\n\n" +
                 "Milk -- 1 cup\n" +
-                "Cinnamon -- 1 teaspoon\n" +
-                "Butter -- 4 tablespoons\n" +
+                "Cinnamon -- 1 teaspoon\n\n" +
+                "Butter -- 4 tablespoons\n\n" +
                 "Maple syrup -- for serving",
-        "Tortillas -- 4\n" +
-                "Eggs -- 6\n" +
-                "Milk -- 1/4 cup\n" +
-                "Salt -- 1/4 teaspoon\n" +
-                "Pepper -- 1/4 teaspoon\n" +
-                "Butter -- 2 tablespoons\n" +
-                "Cheddar cheese, shredded -- 1 cup\n" +
-                "Bacon, cooked and crumbled -- 8 slices\n" +
-                "Green onions, chopped -- 2\n" +
+        "Tortillas -- 4\n\n" +
+                "Eggs -- 6\n\n" +
+                "Milk -- 1/4 cup\n\n" +
+                "Salt -- 1/4 teaspoon\n\n" +
+                "Pepper -- 1/4 teaspoon\n\n" +
+                "Butter -- 2 tablespoons\n\n" +
+                "Cheddar cheese, shredded -- 1 cup\n\n" +
+                "Bacon, cooked and crumbled -- 8 slices\n\n" +
+                "Green onions, chopped -- 2\n\n" +
                 "Salsa -- 1/2 cup")
 
-    val breakfastFoodProcedure: Array<String> = arrayOf("1. Fill a saucepan with a few inches of water and bring it to a simmer over medium heat. While the water heats up, prepare the other ingredients.\n" +
-            "2. Toast the English muffin halves until lightly browned. Top each half with a slice of Canadian bacon.\n" +
-            "3. Crack an egg into a small bowl or cup. When the water is simmering, add the vinegar and stir to create a vortex in the center of the pan. Carefully pour the egg into the vortex and cook for 3-4 minutes, or until the white is set but the yolk is still runny. Remove the egg with a slotted spoon and place it on top of one of the Canadian bacon-topped English muffin halves. Repeat with the remaining eggs.\n" +
-            "4. In a small saucepan, melt the butter over low heat. In a blender or food processor, combine the egg yolks, lemon juice, salt, and cayenne pepper. Blend until smooth.\n" +
-            "5. With the blender or food processor running, slowly pour the melted butter into the egg yolk mixture in a thin stream. Continue blending until the sauce is thick and creamy.\n" +
-            "6. Spoon the hollandaise sauce over the poached eggs and serve immediately.",
-        "1. In a large bowl, whisk together the flour, baking powder, salt, and sugar.\n" +
-                "2. In a separate bowl, whisk together the buttermilk, egg, and melted butter.\n" +
-                "3. Add the wet ingredients to the dry ingredients and stir until just combined.\n" +
-                "4. Heat a large skillet or griddle over medium-high heat. Grease the skillet or griddle with butter or cooking spray.\n" +
-                "5. Use a 1/4-cup measure to scoop the pancake batter onto the skillet or griddle. Cook the pancakes for 2-3 minutes on each side, or until golden brown.\n" +
-                "6. Serve the pancakes hot, with butter and syrup if desired.",
-        "1. In a shallow dish, whisk together the eggs, milk, and cinnamon.\n" +
-                "2. Heat a large skillet over medium-high heat. Melt 1 tablespoon of butter in the skillet.\n" +
-                "3. Dip a slice of bread into the egg mixture, making sure to coat both sides evenly.\n" +
-                "4. Place the bread in the skillet and cook for 2-3 minutes on each side, or until golden brown. Repeat with the remaining bread slices, adding more butter to the skillet as needed.\n" +
-                "5. Serve the French toast hot, with maple syrup and powdered sugar if desired.",
-        "1. In a large bowl, whisk together the eggs, milk, salt, and pepper.\n" +
-                "2. In a large skillet, melt the butter over medium-high heat. Add the egg mixture and cook, stirring frequently, until the eggs are scrambled and cooked through.\n" +
-                "3. Warm the tortillas in the microwave or on the stovetop.\n" +
-                "4. Divide the scrambled eggs among the tortillas. Top each with shredded cheese, crumbled bacon, chopped green onions, and salsa.\n" +
-                "5. Roll up the burritos and serve immediately.")
+    val breakfastFoodProcedure: Array<String> = arrayOf("Step 1: Fill a saucepan with a few inches of water and bring it to a simmer over medium heat. While the water heats up, prepare the other ingredients.\n" +
+            "\n" +
+            "Step 2: Toast the English muffin halves until lightly browned. Top each half with a slice of Canadian bacon.\n" +
+            "\n" +
+            "Step 3: Crack an egg into a small bowl or cup. When the water is simmering, add the vinegar and stir to create a vortex in the center of the pan. Carefully pour the egg into the vortex and cook for 3-4 minutes, or until the white is set but the yolk is still runny. Remove the egg with a slotted spoon and place it on top of one of the Canadian bacon-topped English muffin halves. Repeat with the remaining eggs.\n" +
+            "\n" +
+            "Step 4: In a small saucepan, melt the butter over low heat. In a blender or food processor, combine the egg yolks, lemon juice, salt, and cayenne pepper. Blend until smooth.\n" +
+            "\n" +
+            "Step 5: With the blender or food processor running, slowly pour the melted butter into the egg yolk mixture in a thin stream. Continue blending until the sauce is thick and creamy.\n" +
+            "\n" +
+            "Step 6: Spoon the hollandaise sauce over the poached eggs and serve immediately.",
+        "Step 1: In a large bowl, whisk together the flour, baking powder, salt, and sugar.\n" +
+                "\n" +
+                "Step 2: In a separate bowl, whisk together the buttermilk, egg, and melted butter.\n" +
+                "\n" +
+                "Step 3: Add the wet ingredients to the dry ingredients and stir until just combined.\n" +
+                "\n" +
+                "Step 4: Heat a large skillet or griddle over medium-high heat. Grease the skillet or griddle with butter or cooking spray.\n" +
+                "\n" +
+                "Step 5: Use a 1/4-cup measure to scoop the pancake batter onto the skillet or griddle. Cook the pancakes for 2-3 minutes on each side, or until golden brown.\n" +
+                "\n" +
+                "Step 6: Serve the pancakes hot, with butter and syrup if desired.",
+        "Step 1: In a shallow dish, whisk together the eggs, milk, and cinnamon.\n" +
+                "\n" +
+                "Step 2: Heat a large skillet over medium-high heat. Melt 1 tablespoon of butter in the skillet.\n" +
+                "\n" +
+                "Step 3: Dip a slice of bread into the egg mixture, making sure to coat both sides evenly.\n" +
+                "\n" +
+                "Step 4: Place the bread in the skillet and cook for 2-3 minutes on each side, or until golden brown. Repeat with the remaining bread slices, adding more butter to the skillet as needed.\n" +
+                "\n" +
+                "Step 5: Serve the French toast hot, with maple syrup and powdered sugar if desired.",
+        "Step 1. In a large bowl, whisk together the eggs, milk, salt, and pepper.\n" +
+                "\n" +
+                "Step 2: In a large skillet, melt the butter over medium-high heat. Add the egg mixture and cook, stirring frequently, until the eggs are scrambled and cooked through.\n" +
+                "\n" +
+                "Step 3: Warm the tortillas in the microwave or on the stovetop.\n" +
+                "\n" +
+                "Step 4: Divide the scrambled eggs among the tortillas. Top each with shredded cheese, crumbled bacon, chopped green onions, and salsa.\n" +
+                "\n" +
+                "Step 5: Roll up the burritos and serve immediately.")
     val lunchFood: Array<String> = arrayOf("Caprese Salad", "BLT Sandwich", "Chicken Caesar Salad", "Grilled Cheese Sandwich")
 
     val lunchFoodDescription: Array<String> = arrayOf("A simple Italian salad made with fresh mozzarella cheese, ripe tomatoes, and fresh basil leaves. It's often drizzled with olive oil and seasoned with salt and pepper.",
@@ -551,38 +611,47 @@ class FoodDetailsActivity : AppCompatActivity() {
         "A hearty salad made with romaine lettuce, grilled chicken breast, croutons, Parmesan cheese, and Caesar dressing.",
         "A classic sandwich made with melted cheese between slices of toasted bread. It can be served plain or with a variety of toppings, such as ham or tomato.")
 
-    val lunchFoodIngredients: Array<String> = arrayOf("Fresh mozzarella cheese -- 8 oz\n" +
-            "Tomatoes -- 2 large\n" +
-            "Fresh basil leaves -- 1/4 cup\n" +
-            "Olive oil -- 2 tbsp\n" +
+    val lunchFoodIngredients: Array<String> = arrayOf("Fresh mozzarella cheese -- 8 oz\n\n" +
+            "Tomatoes -- 2 large\n\n" +
+            "Fresh basil leaves -- 1/4 cup\n\n" +
+            "Olive oil -- 2 tbsp\n\n" +
             "Salt and pepper -- to taste",
-        "Bacon -- 8 slices\n" +
-                "Tomatoes -- 2 large\n" +
-                "Lettuce -- 4 leaves\n" +
-                "Mayonnaise -- 4 tbsp\n" +
+        "Bacon -- 8 slices\n\n" +
+                "Tomatoes -- 2 large\n\n" +
+                "Lettuce -- 4 leaves\n\n" +
+                "Mayonnaise -- 4 tbsp\n\n" +
                 "Bread -- 8 slices, toasted",
-        "Romaine lettuce -- 1 head\n" +
-                "Grilled chicken breast -- 2, sliced\n" +
-                "Croutons -- 1 cup\n" +
-                "Parmesan cheese -- 1/2 cup, grated\n" +
+        "Romaine lettuce -- 1 head\n\n" +
+                "Grilled chicken breast -- 2, sliced\n\n" +
+                "Croutons -- 1 cup\n\n" +
+                "Parmesan cheese -- 1/2 cup, grated\n\n" +
                 "Caesar dressing -- 1/2 cup",
-        "Bread -- 4 slices, toasted\n" +
-                "Cheese -- 4 slices\n" +
+        "Bread -- 4 slices, toasted\n\n" +
+                "Cheese -- 4 slices\n\n" +
                 "Butter -- 2 tbsp")
 
-    val lunchFoodProcedure: Array<String> = arrayOf("1. Slice the mozzarella cheese and tomatoes into thin slices.\n" +
-            "2. Arrange the cheese and tomato slices on a plate, alternating them with the basil leaves.\n" +
-            "3. Drizzle olive oil over the salad and season with salt and pepper to taste.",
-        "1. Cook the bacon in a skillet over medium heat until crispy. Remove from the skillet and drain on paper towels.\n" +
-                "2. Slice the tomatoes and tear the lettuce leaves into bite-sized pieces.\n" +
-                "3. Spread mayonnaise on one side of each slice of bread. Layer the bacon, tomatoes, and lettuce on one slice of bread, then top with the other slice of bread.\n" +
-                "4. Cut the sandwich in half and serve.",
-        "1. Wash and dry the lettuce, then tear it into bite-sized pieces.\n" +
-                "2. In a large bowl, combine the lettuce, chicken, croutons, and Parmesan cheese.\n" +
-                "3. Toss the salad with Caesar dressing to coat.",
-        "1. Place a slice of cheese between two slices of bread.\n" +
-                "2. Melt the butter in a skillet over medium heat. Place the sandwich in the skillet and cook until the cheese is melted and the bread is golden brown, flipping halfway through.\n" +
-                "3. Cut the sandwich in half and serve.")
+    val lunchFoodProcedure: Array<String> = arrayOf("Step 1: Slice the mozzarella cheese and tomatoes into thin slices.\n" +
+            "\n" +
+            "Step 2: Arrange the cheese and tomato slices on a plate, alternating them with the basil leaves.\n" +
+            "\n" +
+            "Step 3: Drizzle olive oil over the salad and season with salt and pepper to taste.",
+        "Step 1: Cook the bacon in a skillet over medium heat until crispy. Remove from the skillet and drain on paper towels.\n" +
+                "\n" +
+                "Step 2: Slice the tomatoes and tear the lettuce leaves into bite-sized pieces.\n" +
+                "\n" +
+                "Step 3: Spread mayonnaise on one side of each slice of bread. Layer the bacon, tomatoes, and lettuce on one slice of bread, then top with the other slice of bread.\n" +
+                "\n" +
+                "Step 4: Cut the sandwich in half and serve.",
+        "Step 1: Wash and dry the lettuce, then tear it into bite-sized pieces.\n" +
+                "\n" +
+                "Step 2: In a large bowl, combine the lettuce, chicken, croutons, and Parmesan cheese.\n" +
+                "\n" +
+                "Step 3: Toss the salad with Caesar dressing to coat.",
+        "Step 1. Place a slice of cheese between two slices of bread.\n" +
+                "\n" +
+                "Step 2: Melt the butter in a skillet over medium heat. Place the sandwich in the skillet and cook until the cheese is melted and the bread is golden brown, flipping halfway through.\n" +
+                "\n" +
+                "Step 3: Cut the sandwich in half and serve.")
 
     val dinnerFood: Array<String> = arrayOf("Grilled Steak", "Roasted Chicken", "Salmon Fillet", "Vegetable Stir-Fry")
 
@@ -592,43 +661,58 @@ class FoodDetailsActivity : AppCompatActivity() {
         "A colorful stir-fry made with a variety of fresh vegetables and served over rice.")
 
     val dinnerFoodIngredients: Array<String> = arrayOf("Steak -- 1 lb\n" +
-            "Salt and pepper -- to taste\n" +
+            "Salt and pepper -- to taste\n\n" +
             "Olive oil -- 2 tbsp",
         "Whole chicken -- 1 (3-4 lbs)\n" +
-                "Salt and pepper -- to taste\n" +
-                "Herbs (such as thyme or rosemary) -- 1-2 sprigs\n" +
+                "Salt and pepper -- to taste\n\n" +
+                "Herbs (such as thyme or rosemary) -- 1-2 sprigs\n\n" +
                 "Butter -- 2 tbsp",
-        "Salmon fillets -- 4 (6 oz each)\n" +
-                "Lemon -- 1, sliced\n" +
-                "Garlic -- 2 cloves, minced\n" +
-                "Fresh dill -- 1/4 cup, chopped\n" +
+        "Salmon fillets -- 4 (6 oz each)\n\n" +
+                "Lemon -- 1, sliced\n\n" +
+                "Garlic -- 2 cloves, minced\n\n" +
+                "Fresh dill -- 1/4 cup, chopped\n\n" +
                 "Olive oil -- 2 tbsp",
-        "Assorted vegetables (such as bell peppers, broccoli, and carrots) -- 4 cups, chopped\n" +
-                "Garlic -- 2 cloves, minced\n" +
-                "Soy sauce -- 1/4 cup\n" +
-                "Honey -- 2 tbsp\n" +
-                "Cornstarch -- 1 tbsp\n" +
-                "Water -- 1/4 cup\n" +
+        "Assorted vegetables (such as bell peppers, broccoli, and carrots) -- 4 cups, chopped\n\n" +
+                "Garlic -- 2 cloves, minced\n\n" +
+                "Soy sauce -- 1/4 cup\n\n" +
+                "Honey -- 2 tbsp\n\n" +
+                "Cornstarch -- 1 tbsp\n\n" +
+                "Water -- 1/4 cup\n\n" +
                 "Rice -- 2 cups, cooked")
 
-    val dinnerFoodProcedure: Array<String> = arrayOf("1. Preheat the grill to medium-high heat.\n" +
-            "2. Season the steak with salt and pepper and brush with olive oil.\n" +
-            "3. Grill the steak for 5-7 minutes per side, or until cooked to your liking.\n" +
-            "4. Let the steak rest for a few minutes before slicing and serving.",
-        "1. Preheat the oven to 425°F.\n" +
-                "2. Season the chicken with salt and pepper and place in a roasting pan.\n" +
-                "3. Stuff the cavity of the chicken with herbs and dot with butter.\n" +
-                "4. Roast the chicken for 1-1 1/2 hours, or until the internal temperature reaches 165°F.\n" +
-                "5. Let the chicken rest for 10-15 minutes before carving and serving.",
-        "1. Preheat the oven to 400°F.\n" +
-                "2. Season the salmon fillets with salt and pepper and place in a baking dish.\n" +
-                "3. Top each fillet with a few slices of lemon, minced garlic, and chopped dill.\n" +
-                "4. Drizzle with olive oil and bake for 12-15 minutes, or until the salmon flakes easily with a fork.\n" +
-                "5. Serve hot.",
-        "1. Heat a wok or large skillet over high heat.\n" +
-                "2. Add the chopped vegetables and minced garlic and stir-fry for 3-5 minutes, or until tender-crisp.\n" +
-                "3. In a small bowl, whisk together the soy sauce, honey, and cornstarch." +
-                "4. Add the soy sauce mixture to the skillet and stir-fry for another 1-2 minutes, or until the sauce thickens.\n" +
-        "5. Serve the stir-fry over cooked rice.")
+    val dinnerFoodProcedure: Array<String> = arrayOf("Step 1: Preheat the grill to medium-high heat.\n" +
+            "\n" +
+            "Step 2: Season the steak with salt and pepper and brush with olive oil.\n" +
+            "\n" +
+            "Step 3: Grill the steak for 5-7 minutes per side, or until cooked to your liking.\n" +
+            "\n" +
+            "Step 4: Let the steak rest for a few minutes before slicing and serving.",
+        "Step 1: Preheat the oven to 425°F.\n" +
+                "\n" +
+                "Step 2: Season the chicken with salt and pepper and place in a roasting pan.\n" +
+                "\n" +
+                "Step 3: Stuff the cavity of the chicken with herbs and dot with butter.\n" +
+                "\n" +
+                "Step 4: Roast the chicken for 1-1 1/2 hours, or until the internal temperature reaches 165°F.\n" +
+                "\n" +
+                "Step 5: Let the chicken rest for 10-15 minutes before carving and serving.",
+        "Step 1: Preheat the oven to 400°F.\n" +
+                "\n" +
+                "Step 2: Season the salmon fillets with salt and pepper and place in a baking dish.\n" +
+                "\n" +
+                "Step 3: Top each fillet with a few slices of lemon, minced garlic, and chopped dill.\n" +
+                "\n" +
+                "Step 4: Drizzle with olive oil and bake for 12-15 minutes, or until the salmon flakes easily with a fork.\n" +
+                "\n" +
+                "Step 5: Serve hot.",
+        "Step 1: Heat a wok or large skillet over high heat.\n" +
+                "\n" +
+                "Step 2: Add the chopped vegetables and minced garlic and stir-fry for 3-5 minutes, or until tender-crisp.\n" +
+                "\n" +
+                "Step 3: In a small bowl, whisk together the soy sauce, honey, and cornstarch." +
+                "\n" +
+                "Step 4: Add the soy sauce mixture to the skillet and stir-fry for another 1-2 minutes, or until the sauce thickens.\n" +
+        "\n" +
+                "Step 5: Serve the stir-fry over cooked rice.")
 
 }
